@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/jaintpharsha/Devops-ITD-May-2023.git
-    targetRevision: HEAD
-    path: yamls
+    targetRevision: main
+    path: Kubernetes/argo/yamls
   destination:
     server: https://13.201.8.19:6443
     namespace: default
