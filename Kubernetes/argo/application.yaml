@@ -11,7 +11,7 @@ spec:
     path: yamls
   destination:
     server: https://13.201.8.19:6443
-    namespace: test
+    namespace: default
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
