@@ -15,7 +15,7 @@ spec:
       tolerations:
       - key: env
         effect: NoSchedule
-        operator: "Exists"        
+        operator: "Exists"
       containers:
       - name: ipapp
         image: harshajain/ip_app:2
